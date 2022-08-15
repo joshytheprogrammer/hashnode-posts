@@ -233,4 +233,61 @@ When we first add an image, the browser will display the full image. We might no
 <img src="path_to_image" width="480px" height="400px" />
 ```
 
+## HTML comments
+
+Comments allow you to document your code in a format that browsers ignore. 
+To write a comment,
+
+```html
+<!-- Write your comments here -->
+```
+
+Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+Anything written in between the comment tags will be ignore by the browser but will be visible to humans.
+
+Comments have several uses in html,
+
+### Hide inline content
+
+Comments can be used parts of your code, even code inside tags. e.g
+
+```html
+<p>Comments <!-- will --> can hide the 'will' part of this code. </p>
+```
+
+### Hide content
+
+Comments can be used to hide entire html elements from the browser while still keeping them within your reach. 
+
+```html
+<p>Are you a good boy? </p>
+
+<!-- <p> No </p> -->
+
+<p> Yes </p>
+```
+
+You can also hide more than one line of code,
+
+```html
+<p> Do you love Jesus? </p>
+
+<!--
+<p> No, I love EREN.</p>
+<img src="" alt="A picture of EREN YEAGER" >
+-->
+```
+
+### Take notes
+
+You can use comments to write notifications or reminders for yourself.
+
+```html
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
+```
+
 That's all for now. This may seem like a lot for now but remember, practice makes perfect. The more you use these concepts, the better you get at using them. Hope you enjoyed, check out my other content below.
