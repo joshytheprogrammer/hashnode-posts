@@ -279,6 +279,22 @@ There are some tags in HTML designed to make text look better. This is called HT
 <p>Hello <sub>Write Your First Paragraph in subscript.</sub></p>  
 ```
 
+### Some others (edited):
+
+**Line break**: 
+
+```html
+<p> Hello <br> World </p>
+```
+
+**Horizontal rule**
+
+```html
+<p> Hello World </p>
+<hr>
+<p> Good bye world </p>
+```
+
 There are a few more text formatting techniques that exist but I feel this is enough for this post.
 
 ## Conclusion
