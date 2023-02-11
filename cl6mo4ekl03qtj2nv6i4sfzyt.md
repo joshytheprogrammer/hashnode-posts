@@ -1,17 +1,19 @@
-## HTML for beginners
+# HTML for beginners
 
-HTML is a markup language for defining websites. It stands for HYPER TEXT MARKUP LANGUAGE and is what defines the structure of every website. For example, html can define links, paragraphs, divisions, articles, sections etc. 
+HTML is a markup language for defining websites. It stands for HYPER TEXT MARKUP LANGUAGE and is what defines the structure of every website. For example, HTML can define links, paragraphs, divisions, articles, sections etc.
 
 A HTML element is defined by a start tag, some content, and an end tag:
 
 ```html
 <tagname> Content goes here... </tagname>
 ```
+
 The HTML element is everything from the start tag to the end tag:
 
 ```html
 <h1>My First Heading</h1>
 ```
+
 ```html
 <p>My first paragraph.</p>
 ```
@@ -20,9 +22,9 @@ The HTML element is everything from the start tag to the end tag:
 
 ## HTML Editing Software
 
-Visit [https://code.visualstudio.com/](https://code.visualstudio.com/) and follow the appropriate steps to download and install vscode. 
+Visit [https://code.visualstudio.com/](https://code.visualstudio.com/) and follow the appropriate steps to download and install vs code.
 
-Now proceed to installing the extension known as live server. If you don't see it in the extensions tab, you can click [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to install it. 
+Now proceed to installing the extension known as live server. If you don't see it in the extensions tab, you can click [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to install it.
 
 Launch a local development server with live reload feature for static & dynamic pages.
 
@@ -46,7 +48,7 @@ Launch a local development server with live reload feature for static & dynamic 
 
 The `<!DOCTYPE html>` declaration tells the browser your document is going to be a html5 document. It must at the top of the page before any HTML tags.
 
-The `<title>Document</title>` tag, defines the text that is shown on the browser tab. 
+The `<title>Document</title>` tag, defines the text that is shown on the browser tab.
 
 ### Empty tags
 
@@ -54,7 +56,7 @@ Some HTML element have no content. These are called empty tags. An example of th
 
 ### Self closing tags
 
-Not all elements require end tags. Elements like the image tag, do not require closing tag. These are called self closing tags. Other self closing tags are ->
+Not all elements require end tags. Elements like the image tag, do not require closing tag. These are called self closing tags. Other self closing tags are -&gt;
 
 ```html
 <area />
@@ -79,30 +81,37 @@ HTML elements can be nested, this means that they can be placed inside other htm
 
 ### Never skip the end tag
 
-Never skip the end tag, it is common for beginners to not close their html elements. 
+Never skip the end tag, it is common for beginners to not close their html elements.
+
 ```html
 <h1> What is my gender? 
 <p> I am a boy. </p>
 ```
-This will cause multiple errors. Remember the syntax -> 
-```html 
+
+This will cause multiple errors. Remember the syntax -&gt;
+
+```html
 <tagname> content... </tagname>
 ```
 
-### Html tags are case insensitive 
+### HTML tags are case insensitive
 
-HTML tags are not case sensitive. This means that `<P>` and `<p>` are the same in HTML. However, it is **recommended** you use lowercase characters when defining tags. 
+HTML tags are not case sensitive. This means that `<P>` and `<p>` are the same in HTML. However, it is **recommended** you use lowercase characters when defining tags.
 
 ### HTML attributes
 
 HTML attributes provide additional information about HTML elements.
 
-- All HTML elements can have attributes
-- Attributes usually come in name/value pairs like: name="value"
-- Attributes are always specified in the start tag
-- Attributes provide additional information about elements
+* All HTML elements can have attributes
+    
+* Attributes usually come in name/value pairs like: name="value"
+    
+* Attributes are always specified in the start tag
+    
+* Attributes provide additional information about elements
+    
 
-Some examples of html attributes : 
+Some examples of html attributes :
 
 ### The src attribute.
 
@@ -114,11 +123,11 @@ We spoke about images earlier so lets discuss the "src" attribute. The `img` tag
 
 There are two ways to specify the URL in the src attribute:
 
-1.Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+1.Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img\_girl.jpg".
 
 Notes: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
 
-2.Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+2.Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img\_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img\_girl.jpg".
 
 Tip: It is almost always best to use relative URLs. They will not break if you change domain.
 
@@ -132,14 +141,13 @@ The href attribute is tied to the 'a' tag. It specifies the page the link points
 <a href="google.com"> Visit Google </a>
 ```
 
-**Note: ** I recommend using double quotes and lowercase when defining attributes.
-
+\*\*Note: \*\* I recommend using double quotes and lowercase when defining attributes.
 
 ## Your first webpage
 
 Open a folder, create a new file `index.html`. Now type `html:5` and then `tab`.
 
-This should scaffold something like this, you can also just copy this : 
+This should scaffold something like this, you can also just copy this :
 
 ```html
 <!DOCTYPE html>
@@ -175,15 +183,15 @@ This should result in something like this :
 
 ![heading-levels.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660075470032/Np018LuAZ.png align="left")
 
-The h's described above stand for heading. Each of the h<no> represent different levels of heading ranging 1 - 6. One is the highest and six is the lowest as seen in the example below. 
+The h tags described above stand for heading. Each of the h tags represent different levels of heading ranging 1 - 6. One is the highest and six is the lowest as seen in the example above.
 
 There you have it, you created your first web page.
 
-Let's look at other things we can do with html. 
+Let's look at other things we can do with HTML.
 
 ## Text, Links, Lists and Images
 
-**Let's start with text.** In html, you can define text in many ways. You can simply write on the editor without placing any tags and it will display in the browser as plain text. Or, you can define a paragraph `<p></p>`. 
+**Let's start with text.** In HTML, you can define text in many ways. You can simply write on the editor without placing any tags and it will display in the browser as plain text. Or, you can define a paragraph `<p></p>`.
 
 ```html
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
@@ -193,18 +201,17 @@ The code above will create a paragraph ( containing the text inside the p tag ) 
 
 By the way, I don't speak Italian. You can generate this text by typing `lorem10`.
 
-**Next up links.** To create a link we would use the `a` tag. This tag however is not like your regular html element in that it relies on an attribute to function effectively. This attribute is called `href` attribute.  The href attribute specifies the URL of the page the link goes to.
-Let's see how it works: 
+**Next up links.** To create a link we would use the `a` tag. This tag however is not like your regular HTML element in that it relies on an attribute to function effectively. This attribute is called `href` attribute. The href attribute specifies the URL of the page the link goes to. Let's see how it works:
 
 ```html
 <a href="https://blog.joshytheprogrammer.com">Visit my blog</a>
 ```
 
-I have already talked about this in the attributes section of this lesson. 
+I have already talked about this in the attributes section of this lesson.
 
-**Next we have Lists.** HTML lists allow web developers to group a set of related items in lists. They are of two types, ordered lists and unordered lists. 
+**Next we have Lists.** HTML lists allow web developers to group a set of related items in lists. They are of two types, ordered lists and unordered lists.
 
-An ordered lists starts with an `ol` tag. Each list item will have an `li` tag. Ordered lists are numbered by default. 
+An ordered lists starts with an `ol` tag. Each list item will have an `li` tag. Ordered lists are numbered by default.
 
 ```html
 <p>Foods I like: </p>
@@ -215,7 +222,7 @@ An ordered lists starts with an `ol` tag. Each list item will have an `li` tag. 
 </ol>
 ```
 
-An unordered lists starts with an `ul` tag. Each list item will have an `li` tag. Unordered lists have bullet points by default. 
+An unordered lists starts with an `ul` tag. Each list item will have an `li` tag. Unordered lists have bullet points by default.
 
 ```html
 <p>YT Channels I like: </p>
@@ -226,8 +233,7 @@ An unordered lists starts with an `ul` tag. Each list item will have an `li` tag
 </ul>
 ```
 
-**Lastly, Images.** To add an image to a website we use the `img` tag combined with the src attribute. The src attribute points to the location of the image file.
-When we first add an image, the browser will display the full image. We might not want that. To edit an image's width and height, we simply use the width and height attributes. 
+**Lastly, Images.** To add an image to a website we use the `img` tag combined with the src attribute. The src attribute points to the location of the image file. When we first add an image, the browser will display the full image. We might not want that. To edit an image's width and height, we simply use the width and height attributes.
 
 ```html
 <img src="path_to_image" width="480px" height="400px" />
@@ -235,17 +241,15 @@ When we first add an image, the browser will display the full image. We might no
 
 ## HTML comments
 
-Comments allow you to document your code in a format that browsers ignore. 
-To write a comment,
+Comments allow you to document your code in a format that browsers ignore. To write a comment,
 
 ```html
 <!-- Write your comments here -->
 ```
 
-Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
-Anything written in between the comment tags will be ignore by the browser but will be visible to humans.
+Notice that there is an exclamation point (!) in the start tag, but not in the end tag. Anything written in between the comment tags will be ignore by the browser but will be visible to humans.
 
-Comments have several uses in html,
+Comments have several uses in HTML,
 
 ### Hide inline content
 
@@ -257,7 +261,7 @@ Comments can be used parts of your code, even code inside tags. e.g
 
 ### Hide content
 
-Comments can be used to hide entire html elements from the browser while still keeping them within your reach. 
+Comments can be used to hide entire HTML elements from the browser while still keeping them within your reach.
 
 ```html
 <p>Are you a good boy? </p>
