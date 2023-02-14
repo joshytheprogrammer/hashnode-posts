@@ -4,7 +4,9 @@ Last time, I wrote about CSS for beginners. The purpose of that article was to h
 
 ## Loading Animation
 
-Almost every internet user has experienced some form of loading animation. That circular spinner you see on YouTube, Netflix, and many other sites is all types of loading animation. Your job is to reproduce something like this in whatever capacity you can. I'll leave the research and development to you.
+Almost every internet user has experienced some form of loading animation. That circular spinner you see on YouTube, Netflix, and many other sites is all types of loading animation. Your job is to reproduce something like this in whatever capacity you can. I'll leave the research and development to you. I have a post on how to build this spinner down here, check it out with this [link](https://blog.joshytheprogrammer.com/how-to-create-a-spinner-or-loader-with-html-and-css).
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676405984248/64ecd06b-c9e9-4c6b-aaf0-e926f2d11e37.gif align="center")
 
 ## Navigation bars
 
