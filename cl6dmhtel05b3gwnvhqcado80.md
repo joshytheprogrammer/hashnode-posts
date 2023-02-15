@@ -1,10 +1,10 @@
-## How to style the scrollbar
+# How to style the scrollbar
 
 ## What is a scrollbar
 
-According to Wikipedia :- A **scrollbar** is an [interaction technique](https://en.wikipedia.org/wiki/Interaction_technique "Interaction technique") or [widget](https://en.wikipedia.org/wiki/Widget_(GUI) "Widget (GUI)") in which continuous text, pictures, or any other content can be [scrolled](https://en.wikipedia.org/wiki/Scrolling "Scrolling") in a predetermined direction (up, down, left, or right) on a [computer display](https://en.wikipedia.org/wiki/Computer_display "Computer display"), [window](https://en.wikipedia.org/wiki/Window_(computing) "Window (computing)"), or [viewport](https://en.wikipedia.org/wiki/Viewport "Viewport") so that all of the content can be viewed, even if only a fraction of the content can be seen on a device's screen at one time.
+According to Wikipedia:- A **scrollbar** is an [interaction technique](https://en.wikipedia.org/wiki/Interaction_technique) or [widget](https://en.wikipedia.org/wiki/Widget_(GUI)) in which continuous text, pictures, or any other content can be [scrolled](https://en.wikipedia.org/wiki/Scrolling) in a predetermined direction (up, down, left, or right) on a [computer display](https://en.wikipedia.org/wiki/Computer_display), [window](https://en.wikipedia.org/wiki/Window_(computing)), or [viewport](https://en.wikipedia.org/wiki/Viewport) so that all of the content can be viewed, even if only a fraction of the content can be seen on a device's screen at one time.
 
-According to me :- A scrollbar is that line on the right side of the browser that allows users to scroll through the page. It can be added or removed using the overflow property.
+According to joshytheprogrammer, "A scrollbar is that line on the right side of the browser that allows users to scroll through the page. It can be added or removed using the overflow property"
 
 ## Usage Example
 
@@ -29,18 +29,27 @@ According to me :- A scrollbar is that line on the right side of the browser tha
 }
 ```
 
-The following will result in  :- ![enter image description here](https://res.cloudinary.com/dsgvwxygr/image/upload/v1658738581/blog/overflow-blog-scrollbar-example_bthb9q.png)
+The following will result in:-
+
+![enter image description here](https://res.cloudinary.com/dsgvwxygr/image/upload/v1658738581/blog/overflow-blog-scrollbar-example_bthb9q.png align="left")
 
 ## Explanation
 
-The  `-webkit-scrollbar`  family of properties consists of  _seven_  different pseudo-elements that, together, comprise a full scrollbar UI element:
+The `-webkit-scrollbar` family of properties consists of *seven* different pseudo-elements that, together, comprise a full scrollbar UI element:
 
-1. `::-webkit-scrollbar`  addresses the background of the bar itself. It is usually covered by the other elements
-2. `::-webkit-scrollbar-button`  addresses the directional buttons on the scrollbar
-3. `::-webkit-scrollbar-track`  addresses the empty space “below” the progress bar
-4. `::-webkit-scrollbar-track-piece`  is the top-most layer of the the progress bar not covered by the draggable scrolling element (thumb)
-5. `::-webkit-scrollbar-thumb`  addresses the draggable scrolling element that resizes depending on the size of the scrollable element
-6. `::-webkit-scrollbar-corner`  addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet
-7. `::-webkit-resizer`  addresses the draggable resizing handle that appears above the  `scrollbar-corner`  at the bottom corner of some elements
+1. `::-webkit-scrollbar` addresses the background of the bar itself. It is usually covered by the other elements
+    
+2. `::-webkit-scrollbar-button` addresses the directional buttons on the scrollbar
+    
+3. `::-webkit-scrollbar-track` addresses the space “below” the progress bar
+    
+4. `::-webkit-scrollbar-track-piece` is the top-most layer of the progress bar not covered by the draggable scrolling element (thumb)
+    
+5. `::-webkit-scrollbar-thumb` addresses the draggable scrolling element that resizes depending on the size of the scrollable element
+    
+6. `::-webkit-scrollbar-corner` addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet
+    
+7. `::-webkit-resizer` addresses the draggable resizing handle that appears above the `scrollbar-corner` at the bottom corner of some elements
+    
 
-The explanation section was scraped from css-tricks. Read their breakdown [here](https://css-tricks.com/almanac/properties/s/scrollbar/)
+The explanation section was gotten from CSS-tricks. Read their full breakdown [here](https://css-tricks.com/almanac/properties/s/scrollbar/).
