@@ -3,6 +3,7 @@ title: "Mastering the Frontend: A Comprehensive Roadmap for Web Developers"
 datePublished: Sat Apr 01 2023 12:33:34 GMT+0000 (Coordinated Universal Time)
 cuid: clfxyfxf0000909l9h7ne6foh
 slug: mastering-the-frontend-a-comprehensive-roadmap-for-web-developers
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690760022002/e5379e5a-0657-460e-accc-988c414cff8f.png
 tags: web-development, developer, frontend-development, getting-started
 
 ---
