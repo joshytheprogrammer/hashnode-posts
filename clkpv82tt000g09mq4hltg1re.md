@@ -82,9 +82,24 @@ Let me guide you through your first rite of passage—uploading your code to Git
     
 3. **Install GitHub CLI (Optional)**: You can use the GitHub Command Line Interface (CLI) to interact with GitHub from the terminal. To install GitHub CLI, visit [https://cli.github.com/](https://cli.github.com/) and follow the installation instructions.
     
-4. Open your project in VSCode: Open the folder of your project in Visual Studio Code.
+4. **Configure your account globally:** When you first create your account, you need to perform some initial configurations. You only need to do this once except under certain circumstances.
     
-5. Initialize Git: Open the terminal within VSCode (Terminal menu -&gt; New Terminal) or use your system's terminal. Navigate to the root directory of your project and initialize Git with the following command:
+
+```bash
+git config --global user.name "Your Name"
+```
+
+Replace `Your Name` with your actual GitHub username.
+
+```bash
+git config --global user.email "your.email@example.com"
+```
+
+Replace [your.email](http://your.email)[@example.com](mailto:your.email@example.com) with your actual GitHub email.
+
+1. **Open your project in VSCode**: Open the folder of your project in Visual Studio Code.
+    
+2. **Initialize Git**: Open the terminal within VSCode (Terminal menu -&gt; New Terminal) or use your system's terminal. Navigate to the root directory of your project and initialize Git with the following command:
     
 
 ```bash
