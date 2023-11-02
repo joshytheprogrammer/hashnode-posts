@@ -3,6 +3,7 @@ title: "Building a Full-Stack Web App with Nuxt 3 and Firebase"
 datePublished: Sat Apr 01 2023 12:21:42 GMT+0000 (Coordinated Universal Time)
 cuid: clfxy0o20000209ldac3ocfos
 slug: building-a-full-stack-web-app-with-nuxt-3-and-firebase
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698950435395/703622d2-3a28-4e92-b9b3-1ff1269b7f5a.png
 tags: javascript, firebase, web-development, vuejs, firestore
 
 ---
