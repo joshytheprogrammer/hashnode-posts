@@ -4,6 +4,7 @@ seoTitle: "Explore the Hidden Gems of HTML - More Relevant Tags Unveiled!"
 datePublished: Fri Jul 28 2023 14:29:47 GMT+0000 (Coordinated Universal Time)
 cuid: clkmojvx1000c09lbf9oc1b6z
 slug: more-relevant-html-tags-intermediate-html
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698949012249/d42c9761-0f91-4420-803b-130ade8dcd39.png
 tags: programming-blogs, learning, html5, learn-coding, learncodeonline
 
 ---
