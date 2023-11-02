@@ -1,4 +1,12 @@
-# How to create a full-screen video background with HTML and CSS
+---
+title: "How to create a full-screen video background with HTML and CSS"
+datePublished: Thu Feb 16 2023 11:04:57 GMT+0000 (Coordinated Universal Time)
+cuid: cle6zwh1y000c08jsa32wczdg
+slug: how-to-create-a-full-screen-video-background-with-html-and-css
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698951258197/cc8433d8-2bfe-44cb-a918-070df80298ed.png
+tags: css3, css, html5, beginners, 100daysofcode
+
+---
 
 Welcome back readers, we will be continuing our series on CSS projects for beginners. If you aren't caught up, there are a few projects you can work on as a beginner front-end developer that will allow you to grow significantly faster than your average beginner. So if you are interested in accelerated growth, check out the post [here](https://blog.joshytheprogrammer.com/9-css-projects-you-can-build-to-get-better).
 
